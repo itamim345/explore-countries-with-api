@@ -21,6 +21,29 @@ body{
     right: 0;
 }
 
+/*=========================== footer area css============================= */
+#footer{
+    background: #dfe6e9;
+    padding: 30px 0;
+    text-align: center;
+}
+#footer p{
+    font-size: 16px;
+}
+#footer p a{
+    text-decoration: none;
+    color: #1B98F5;
+    font-weight: bold;
+}
+span.dif_color {
+    color: #1B98F5;
+}
+.social i {
+    font-size: 25px;
+    margin:0 5px;
+}
+
+
 /* Responsive CSS */
 
 @media only screen and (max-width: 912px){

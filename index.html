@@ -11,6 +11,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- nav-area -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <h2 class="text-center text-light">-- Exploring Countries --</h2>
     <h6 class="text-center text-light">-- Click on <span class="text-danger text-italic">'Get Details'</span> to show details of any country u want  --</h6>
     <!-- demo data to show on single country details -->
@@ -31,9 +57,22 @@
     </section>
     <!-- country wrapper to show all country through api -->
     <section id="countries-wrapper"></section>
+    <!-- footer -->
+    <footer id="footer">
+            <h3><span class="dif_color">Country</span>Explorer</h3>
+            <p>&copy 2022 | All right reserved by <a href="">AF Tamim</a></p>
+            <div class="social">
+                <a href="#about_us_area"><i class="fa-brands fa-facebook fb_c"></i></a>
+                <a href=""><i class="fa-brands fa-youtube text-danger"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+                <a href=""><i class="fa-brands fa-twitter text-info"></i></a>
+            </div>
+    </footer>
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ce1c9b0c75.js" crossorigin="anonymous"></script>
     <!-- our js -->
     <script src="script.js"></script>
 </body> 
