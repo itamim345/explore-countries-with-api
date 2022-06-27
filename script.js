@@ -36,9 +36,9 @@ function detailsInfo (data){
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Capital : - ${data[0].capital}</li>
                             <li class="list-group-item">Population: ${data[0].population}</li>
-                            <li class="list-group-item">Region: ${data[0].region}</li>
+                            <li class="list-group-item">Region : ${data[0].region}</li>
                             <li class="list-group-item">Start of Week: ${data[0].startOfWeek}</li>
-                            <li class="list-group-item">Start of Week: ${data[0].timezones}</li>
+                            <li class="list-group-item">TimeZone : ${data[0].timezones}</li>
                         </ul>
                     </div>
                         `;
